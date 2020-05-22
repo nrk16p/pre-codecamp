@@ -1,0 +1,67 @@
+#svt_container{
+    width: 100%;
+    background-color: grey;
+    height: 800px;    
+    display: flex;
+   
+   }
+   
+   .svt_flexbox_left{
+       height: 450px;
+       width: 20%;
+       margin-left: 45px;
+       margin-top: 45px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+       column-gap: normal;
+       margin-right: 30px;
+   }
+   
+   .svt_flexbox_video {
+       height: 200px;
+       width: 100%;
+       background-color: whitesmoke;
+   }
+   
+   .svt_flexbox_world{
+       height: 200px;
+       width: 100%;
+       background-color: white;
+   }
+   
+   .svt_flexbox_middle{
+       height: 450px;
+       width: 47%;
+       margin-left: 25x;
+       margin-top: 45px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+       column-gap: normal;
+       margin-right: 30px;
+   }
+   
+   .svt_flexbox_news {
+       height: 400px;
+       width: 100%;
+       background-color: white;
+   }
+   
+   .svt_flexbox_right{
+       height: 500px;
+       width: 20%;
+       margin-left: 25x;
+       margin-top: 45px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+       column-gap: normal;
+       margin-right: 30px;
+       align-items: right;
+   }
+   .svt_flexbox_Trends {
+       height: 100%;
+       width: 100%;
+       background-color: white;
+   }
