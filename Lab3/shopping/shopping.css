@@ -1,0 +1,39 @@
+.block-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal
+    padding: 0px   
+    margin-left: 50px      
+}
+
+.title{
+    display: inline-block;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;   
+    text-rendering: optimizeLegibility;
+    padding: 0px;
+    margin-right: 10px;
+}
+
+.view-all{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.flex {
+    width: 100vw;
+    height: 29vh;
+    display: flex;
+    margin-block: 10px;
+}
+
+.flex > div {
+   width: 12vw;
+   height: 24vh;
+   background-color: burlywood;
+   margin: 30px; 
+}
